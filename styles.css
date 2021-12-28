@@ -1,0 +1,252 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Bree Serif', serif;
+        font-size: 20px;
+        color: orangered;
+    }
+    
+    .cabeza {
+        background-color: rgb(39, 39, 39);
+        width: 100%;
+        position: sticky;
+        top: 0px;
+        border-bottom: 0px;
+        z-index: 2;
+    }
+    
+    .cabeza nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .cabeza nav li {
+        list-style: none;
+    }
+    
+    .submenu {
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        border-bottom: 0px;
+    }
+    
+    .menu2 {
+        display: flex;
+    }
+    
+    .cabeza nav ul li ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(39, 39, 39);
+        display: none;
+    }
+    
+    .submenu:hover {
+        background-color: rgb(46, 45, 45);
+    }
+    
+    .cabeza nav ul li:hover ul {
+        display: block;
+    }
+    
+    body {
+        background-image: url(./imagenes/fondo/fonfoNotas.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(4px);
+    }
+    
+    .advertencia {
+        text-align: center;
+        background-color: brown;
+        margin: 20px auto;
+        margin-right: 30%;
+        margin-left: 30%;
+        border-style: solid;
+        border-color: rgba(255, 0, 0, 0.637);
+        border-width: 5px;
+        border-radius: 40%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        
+    }
+    
+    p {
+        color: black;
+        font-size: 20px;
+    }
+    
+    .titulo {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Patrick Hand', cursive;
+        color: rgb(207, 48, 0);
+        text-decoration: underline;
+    }
+    
+    .descripcion {
+        text-align: center;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 25px;
+    }
+    
+    .contenedor {
+        border-style: solid;
+        border-color: grey;
+        margin-right: 20%;
+        margin-left: 20%;
+        border-radius: 50%;
+        border-color: springgreen;
+        background-color: grey;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+        padding-left: 5%
+    }
+    .cont{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-right:10%;
+        margin-left: 10%;
+    }
+    
+   .cont1 img{
+       width: 400px;
+       height: 250px;
+   }
+   .cont1 img:hover{
+        border-style: solid;
+        border-color: cyan;
+        border-width: 3px;
+        width: 396px;
+        height: 246px;
+}
+.cont2 img:hover{
+    border-style: solid;
+    border-color: cyan;
+    border-width: 3px;
+    width: 396px;
+    height: 246px;
+}
+
+
+   .cont1{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   .cont1 a{
+       text-align: center;
+       font-size: 30px;
+   }
+   .cont2 img{
+    width: 400px;
+    height: 250px;
+
+}
+    .cont2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+    .cont2 a{
+    text-align: center;
+    font-size: 30px;
+}
+    
+    .foot {
+        background-color: black;
+        
+    }
+    .foot p{
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .titbanda1 {
+        font-size: 50px;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .banda{
+        margin:20px auto;   
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .imgbanda {
+        width: 500px;
+        margin-top: 20px;
+    }
+    
+    .banda1 {
+        text-align: left;
+        margin-left: 10%;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .contenido {
+        text-align: center;
+        color: white;
+        background-color: black;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-style: solid;
+        border-color: grey;
+    }
+    
+    .listaSetIt {
+        margin-left: 10%;
+        margin-right: 30%;
+        background-color: rgb(233, 233, 233);
+        padding-left: 20px;
+    }
+    
+    .logos {
+        background-color: blueviolet;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    .segunSpo {
+        margin-right: 20px;
+    }
+    
+    .wiki>h2 {
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+        background-color: white;
+    }
+    
+    .wiki>h2>a {
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+    }
+
+    @media screen and (max-width:480px) {
+        .cont{
+            flex-direction: column;
+        }
+    }
