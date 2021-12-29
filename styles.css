@@ -249,4 +249,7 @@
         .cont{
             flex-direction: column;
         }
+       .imgbanda {
+        width: 460px;
+    }
     }
